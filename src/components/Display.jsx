@@ -20,7 +20,6 @@ const Display = ({ Search, PokemonCards }) => {
                   toggleModal();
 
                   setModalPokemon(poke);
-                  console.log("poke modal value Dispay", poke);
                 }}
               >
                 <div
