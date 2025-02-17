@@ -10,8 +10,6 @@ function reducer(state, action) {
     return state + 20;
   } else if (action.type === "previousBtn") {
     state = state - 20;
-    console.log("state after subtracting", state);
-
     if (state < 0) {
       return 0;
     } else {
@@ -38,7 +36,6 @@ const PokemonCatalog = () => {
 
       setError(null);
     } catch (err) {
-      // setError("Failed to fetch Pokémon data.");
       setSearchPokemon(false);
       fetchPokedex();
     }
