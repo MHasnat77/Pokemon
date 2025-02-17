@@ -108,7 +108,7 @@ const PokemonCatalog = () => {
       setPokemon([]);
       fetchPokemon();
     } else {
-      setPokemon([]);
+      // setPokemon([]);
       setPokemon2([]);
       fetchPokedex2();
     }
